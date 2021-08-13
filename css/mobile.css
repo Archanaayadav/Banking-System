@@ -1,0 +1,40 @@
+ul.qwer{
+  float: none;
+  text-align: right;
+  margin: 0;
+  padding: 10px 40px;
+  /* margin: 0; */
+}
+
+
+.title h1{
+  padding-bottom: 7rem;
+}
+
+.btn{
+  padding: 20px;
+}
+
+@media(min-width: 410px) and (max-width: 415px){
+  ul.qwer{
+    padding: 10px 80px;
+  }
+}
+
+.contact-section{
+  /* top:20% */
+  left: 18%;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-items {
+        width: 100%;
+    }
+}
